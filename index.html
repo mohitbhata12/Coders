@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODERS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgvK/Kvc" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://fonts.google.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap">
+</head>
+<body class="background">
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="" class="logo">
+        </div>
+<!-- navigation bar -->
+        <nav class="nav">
+            <a href="#" class="hide-desktop"><img src="images/ham.svg" alt="toggle menu" class="menu" id="menu"></a>
+            <ul class="show-desktop hide-mobile" id="nav">
+                <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li> 
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#about" >About</a></li>
+                <li ><a href="#skills">Skills</a></li>
+                <li ><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- home section -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Mohit bhatia</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            Student Developer
+        </p>
+        <img src="images/img.jpeg" alt="My picture" class="intro__img">
+    </section>
+<!-- About me -->    
+    <section id="about"><div class="text">
+        <h2>About me</h2>
+        <p>Hello there, My name is Mohit Bhatia. I am a student of Btech in Computer Science and Engineering form Galgotias University, Greater Noida and I am a student developer
+            I do love to code and I'm heading towards to implement new ideas in real life.
+            I do love to code in the dark Mode.</p>
+            <p>I am always ready for offers regarding internships and freelancer jobs and always ready to take challenges in life.</p>
+        </div>
+    </section>
+<!-- Skills section-->    
+    <section class="Skills" id="skills">
+        <div class="about__skills">
+            <h2>Skills</h2>
+            <div class="card">
+                Programming Languages
+                <hr>
+                <div class="icons">
+                    <img src="images/python1.png" alt="python" class="skills-img">
+                    <img src="images/cpl.png" alt="c++" class="skills-img">
+                    <img src="images/c.png" alt="c" class="skills-img">
+                    <img src="images/java.png" alt="java" class="skills-img">
+                    <img src="images/js.png" alt="javascipt" class="skills-img">
+                </div>
+            </div>
+            <div class="card">
+                Frontend
+                <hr>
+                <div class="icons">
+                    <img src="images/html.png" alt="html" class="skills-img">
+                    <img src="images/css.png" alt="css" class="skills-img">
+                    <img src="images/icons8-javascript-logo-500.png" alt="Js" class="skills-img">
+                    <img src="images/pug.png" alt="Js" class="skills-img">
+                </div>
+            </div>
+            <div class="card">
+                Backend
+                <hr>
+                <div class="icons">
+                    <img src="images/nodeoriginal.png" alt="nodejs" class="skills-img">
+                    <img src="images/exprs.png" alt="exprsjs" class="skills-img">
+                    <img src="images/python1.png" alt="python" class="skills-img">
+                </div>
+            </div>
+            <div class="card">
+                Others
+                <hr>
+                <div class="icons">
+                    <img src="images/vs.png" alt="Vscode" class="skills-img">
+                    <img src="images/git 2.png" alt="git" class="skills-img">
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- contact section -->    
+    <section>
+        <div id="contact" class="contact">
+            Contact Me
+            <hr>
+            <div class="img-contact">
+                <a href="https://github.com/mohitbhata12" target="__blank"><img src="images/gito.png" alt="github" id="quick"></a>
+                <a href="https://m.facebook.com/profile.php?id=100007757561978" target="__blank"><img src="images/fbo.png" alt=""></a>
+                <a href="https://www.instagram.com/mohit_bhatia23/" target="__blank"><img src="images/instao.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/mohit-bhatia-9455851a2/" target="__blank"><img src="images/linkedinn.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+<!-- footer -->
+    <footer class="footer">
+        <p>Hey there! Thanks for checking out my website. Feel free to contact me :) </p>
+        <h2>&lt;Coders/&gt;</h2>
+        <h3>Copyright &copy; 2020 All rights reserved.</h3>
+    </footer>  
+    
+    <script>
+    
+        var menu = document.getElementById('menu');
+        var nav = document.getElementById('nav');
+        var exit = document.getElementById('exit');
+
+        menu.addEventListener('click', function(e) {
+            nav.classList.toggle('hide-mobile');
+            e.preventDefault();
+        });
+
+        exit.addEventListener('click', function(e) {
+            nav.classList.add('hide-mobile');
+            e.preventDefault();
+        });
+
+    </script>
+</body>
+</html>
