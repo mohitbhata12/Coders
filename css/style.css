@@ -335,7 +335,7 @@ html {
 }
 
 .skills .skills-info .service:nth-child(1) .service-card .service-front {
-	background-image: url(../images/ba.jpg);
+	background-image: url(../images/back1.jpg);
 	background-size: cover;
 	position: relative;
 	color: white;
