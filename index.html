@@ -1,135 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODERS</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgvK/Kvc" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width:1448px)">
-
-    <link rel="stylesheet" href="https://fonts.google.com/css?family=Source+Code+Pro:400,900|Source+Sans
-    +Pro:300,900&display=swap">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODERS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="background">
-    <header>
-        <div class="logo">
-            <img src="images/logo.jpg" alt="" class="logo">
+<body>
+  <!-- nav-bar  -->
+  <section id="nav-bar" class="container">
+    <header class="nav-bar">
+      <div class="brand"><a href="#hero"><h1>&lt;Coders/&gt;</h1></a></div>
+      <div class="nav-list">
+        <div class="hamburger">
+          <div class="bar"></div>
         </div>
-<!-- navigation bar -->
-        <nav class="nav">
-            <a href="#" class="hide-desktop"><img src="images/ham.svg" alt="toggle menu" class="menu" id="menu"></a>
-            <ul class="show-desktop hide-mobile" id="nav">
-                <li id="exit" class="exit-btn hide-desktop"><img src="images/exit.svg" alt="exit menu"></li> 
-                <li ><a href="#home">Home</a></li>
-                <li ><a href="#about" >About</a></li>
-                <li ><a href="#skills">Skills</a></li>
-                <li ><a href="#contact">Contacts</a></li>
-            </ul>
-        </nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contacts">Contact Me</a></li>
+        </ul>
+      </div>
     </header>
-<!-- home section -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Mohit bhatia</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">
-            Student Developer
-        </p>
-        <img src="images/img.jpeg" alt="My picture" class="intro__img">
-    </section>
-<!-- About me -->    
-    <section id="about">
-        <div class="text">
-            <h2>About me</h2>
-            <p>Hello there, My name is Mohit Bhatia. I am a student of Btech in Computer Science and Engineering form Galgotias University, Greater Noida and I am a student developer
-                I do love to code and I'm heading towards to implement new ideas in real life.
-                I do love to code in the dark Mode.</p>
-                <p>I am always ready for offers regarding internships and freelancer jobs and always ready to take challenges in life.</p>
-        </div>
-    </section>
-<!-- Skills section-->    
-    <section class="Skills" id="skills">
-        <div class="about__skills">
-            <h2>Skills</h2>
-            <div class="card">
-                Programming Languages
-                <hr>
-                <div class="icons">
-                    <img src="images/python1.png" alt="python" class="skills-img">
-                    <img src="images/cpl.png" alt="c++" class="skills-img">
-                    <img src="images/c.png" alt="c" class="skills-img">
-                    <img src="images/java.png" alt="java" class="skills-img">
-                    <img src="images/js.png" alt="javascipt" class="skills-img">
-                </div>
-            </div>
-            <div class="card">
-                Frontend
-                <hr>
-                <div class="icons">
-                    <img src="images/html.png" alt="html" class="skills-img">
-                    <img src="images/css.png" alt="css" class="skills-img">
-                    <img src="images/icons8-javascript-logo-500.png" alt="Js" class="skills-img">
-                    <img src="images/pug.png" alt="Js" class="skills-img">
-                </div>
-            </div>
-            <div class="card">
-                Backend
-                <hr>
-                <div class="icons">
-                    <img src="images/nodeoriginal.png" alt="nodejs" class="skills-img">
-                    <img src="images/exprs.png" alt="exprsjs" class="skills-img">
-                    <img src="images/python1.png" alt="python" class="skills-img">
-                </div>
-            </div>
-            <div class="card">
-                Others
-                <hr>
-                <div class="icons">
-                    <img src="images/vs.png" alt="Vscode" class="skills-img">
-                    <img src="images/git 2.png" alt="git" class="skills-img">
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- contact section -->    
-    <section>
-        <div id="contact" class="contact">
-            Contact Me
-            <hr>
-            <div class="img-contact">
-                <a href="https://github.com/mohitbhata12" target="__blank"><img src="images/gito.png" alt="github" id="quick"></a>
-                <a href="https://m.facebook.com/profile.php?id=100007757561978" target="__blank"><img src="images/fbo.png" alt=""></a>
-                <a href="https://www.instagram.com/mohit_bhatia23/" target="__blank"><img src="images/instao.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/mohit-bhatia-9455851a2/" target="__blank"><img src="images/linkedinn.png" alt=""></a>
-            </div>
-        </div>
-    </section>
-<!-- footer -->
-    <footer class="footer">
-        <p>Hey there! Thanks for checking out my website. Feel free to contact me :) </p>
-        <h2>&lt;Coders/&gt;</h2>
-        <h3>Copyright &copy; 2020 All rights reserved.</h3>
-    </footer>  
-    
-    <script>
-    
-        var menu = document.getElementById('menu');
-        var nav = document.getElementById('nav');
-        var exit = document.getElementById('exit');
+  </section>
+  <!-- End nav-bar  -->
 
-        menu.addEventListener('click', function(e) {
-            nav.classList.toggle('hide-mobile');
-            e.preventDefault();
-        });
+  <!-- Hero Section  -->
+  <section id="home" class="hero container">
+    <div class="hero-info">
+      <h1 class="hero-info-heading">Hi, I am <br>Mohit Bhatia</h1>
+      <p class="hero-info-subheading">I am a Student Developer</p>
+      <a href="#" type="button" class="hero-info-button">Portfolio</a>
+    </div>
+    <div class="hero-img">
+      <img src="./images/img.jpeg" alt="">
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
-        exit.addEventListener('click', function(e) {
-            nav.classList.add('hide-mobile');
-            e.preventDefault();
-        });
+  <!-- About section  -->
+  <section id="about" class="about container">
+    <div class="about-info">
+      <h1 class="about-info-heading">About Me</h1>
+      <p class="about-info-desc">Hello there, My name is Mohit Bhatia. I am a student of Btech in Computer Science and Engineering form Galgotias University, Greater Noida and I am a student developer
+        I do love to code and I'm heading towards to implement new ideas in real life.
+        I do love to code in the dark Mode.</p>
+        <p class="about-info-desc">I am always ready for offers regarding internships and freelancer jobs and always ready to take challenges in life.</p>
+    </div>
+    <div class="about-img">
+      <div class="about-img-wrapper">
+        <img src="./images/img-2.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- End About section  -->
 
-    </script>
+  <!-- Service Section  -->
+  <section id="skills" class="skills container">
+    <div class="skills-header">
+      <h1 class="skills-header-heading">My Skills</h1>
+      <p class="skills-header-desc">Here are my Skills</p>
+    </div>
+    <div class="skills-info">
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fa-laptop-code"></i>
+            <h1 class="service-front-heading">Programming<br>Languages</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">Programming<br>Languages</h1>
+            <p class="service-back-desc">I Do know some of the programming Languages:<br>
+            PYTHON<br>
+            C++<br>
+            C<br>
+            JAVA<br>
+            JAVA-SCRIPTS</p>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fa-laptop-code"></i>
+            <h1 class="service-front-heading">Font End Dev</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">Front End Dev</h1>
+            <p class="service-back-desc">I Do prefer to do Front End Dev in:<br>
+            HTML<br>
+            CSS<br>
+            JAVA-SCRIPTS</p>
+          </div>
+        </div>
+      </div>
+      <div class="service">
+        <div class="service-card">
+          <div class="service-front">
+            <i class="fa fa-laptop-code"></i>
+            <h1 class="service-front-heading">Back End Dev</h1>
+          </div>
+          <div class="service-back">
+            <h1 class="service-back-heading">Back End Dev</h1>
+            <p class="service-back-desc">I do prefer to do Back End Dev in:<br>
+            NODE-JS<br>
+            EXPRESS-JS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section  -->
+
+  <!-- Hire Section  -->
+  <section class="hire container">
+    <h1 class="hire-heading">Hire me to build your dream website</h1>
+    <a href="#" type="button" class="hire-button">Hire Me !!</a>
+  </section>
+  <!-- End Hire Section  -->
+
+  <!-- Footer section  -->
+  <footer id="contacts" class="footer container">
+    <div class="footer-contact">
+      <h1 class="footer-contact-heading">Contact With Me</h1>
+      <p class="footer-contact-info">Email: mohitbhatia486@gamil.com</p>
+      <p class="footer-contact-info">Mobile: 798233 4560</p>
+    </div>
+    <div class="footer-social-follow">
+      <h1 class="footer-social-follow-heading">Follow Me</h1>
+      <div class="footer-social-icon">
+        <a href="https://m.facebook.com/profile.php?id=100007757561978"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/mohit_bhatia23/"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://github.com/mohitbhata12"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mohit-bhatia-9455851a2/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer section  -->
+  <script>
+  const hamburger_icon = document.querySelector('#nav-bar .nav-bar .nav-list .hamburger');
+  const nav_list = document.querySelector('#nav-bar .nav-bar .nav-list');
+  hamburger_icon.addEventListener('click', () => {
+      nav_list.classList.toggle('open');
+      hamburger_icon.classList.toggle('active');
+      });
+</script>
 </body>
 </html>
